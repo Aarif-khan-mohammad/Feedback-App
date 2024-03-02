@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-page{
+  background-image: linear-gradient(to right, #ffeeee, #ffe2e2, #ffd7d5, #ffcbc8, #ffc0bb);
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.review-card{
+  height:60vh;
+  width:80%;
+  background-color:#fff;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.heading{
+  font-size:1.5rem;
+  color:#0f172a;
+  font-family:"Roboto";
+}
+.buttons{
+  display:flex;
+  gap:1rem;
+}
+
+.emoji{
+  height:5rem;
+  width:5rem;
+  
+}
+.text{
+  color:#1e293b;
+  font-size:0.7rem;
+  font-family:"Roboto";
+}
+
+.emoji-btn{
+  background-color:transparent;
+  border:none;
+  border-radius:50%;
+}
+
+.thank-you{
+  color: #1e293b;
+  text-align:center;
+}
+
+
+
+
+
+.re-review{
+  height:2rem;
+  width:6rem;
+  background-color: #ffc0bb;
+  border:1px solid #ffeeee;
+  border-radius:2rem;
+  color: #EE4266;
+}
+
+
+
+
+
+
+/*
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/k1N83Jr/quiet.png" alt="quiet" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/YZRHtG9/sad.png" alt="sad" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/mGhNyPt/smile.png" alt="smile" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/LRjqnGF/heart.png" alt="heart" border="0"></a>
+*/
